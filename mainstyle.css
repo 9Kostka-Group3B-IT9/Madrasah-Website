@@ -1,0 +1,84 @@
+.container {
+  position: relative;
+  text-align: center;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #6B8E23;
+  width: 180px;
+  height: 75px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #6B8E23;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #E4FFDE;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #E4FFDE;
+  color: #6B8E23;
+}
+#star{
+	margin-top: 18px;
+	text-decoration: underline;
+    font-style: sans-serif;
+    color: #E4FFDE;
+}
+p{
+  align: auto;
+	size: 3;
+	color: #6B8E23;
+  font-family: singka;
+}
+h2{
+    color: #6B8E23;
+}
+h1, h2, h3{
+	color: #6B8E23;
+  font-family: nueu;
+}
+@font-face{
+  font-family: nueu;
+  src: url(bebe.ttf);
+}
+@font-face{
+  font-family: singka;
+  src: url(negative.ttf);
+}
+.grid{
+	height: 55%;
+	width: 50%;
+	float: left;
+	border-bottom: 5px double #6B8E23;
+}
+.grid2{
+    height: 55%;
+  width: 50%;
+  float: right;
+  border-bottom: 5px double #6B8E23;
+}
+.grid3{
+  height: 55%;
+  width: 100%;
+  border-top: 5px double #6B8E23;
+   position: relative;
+  text-align: center;
+  margin-top:10px;
+}
